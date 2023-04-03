@@ -1,0 +1,16 @@
+package 생성자;
+
+public class 통장 {
+	
+	String name; //이름
+	String ssn; //주민등록번호
+	int money; //돈
+	
+	public 통장(String name, String ssn, int money) {
+		super();
+		this.name = name;
+		this.ssn = ssn;
+		this.money = money;
+	}
+	//이름, 주민등록번호, 돈을 입력해야 통장을 만들 수 있게 할 것이다
+}
